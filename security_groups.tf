@@ -23,7 +23,7 @@ resource "aws_security_group" "ec2_ssh" {
   }
 }
 
-# Create Security Group - Web Traffic
+# Create Security Group - tomcat server
 resource "aws_security_group" "tomcat_port" {
   name        = "tomcat_port"
   description = "enabling tomcat port"
